@@ -2,7 +2,7 @@
 <html style="font-size: 16px;" lang="en">
 <head>
   @include('frontend.head')
-  <link rel="stylesheet" href="{{asset('frontend/Contact.css')}}" media="screen">
+  <link rel="stylesheet" href="{{asset('frontend/Contact.css?ver=1')}}" media="screen">
 </head>
 <body class="u-body u-overlap u-xl-mode" data-lang="en">
 		@include('frontend.header')
@@ -26,34 +26,76 @@
 							<div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
 								<div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xl u-container-layout-1">
 									<h6 class="u-custom-font u-text u-text-custom-color-4 u-text-2">GLOBAL RANCANG SELARAS</h6>
-									<p class="u-custom-font u-text u-text-custom-color-4 u-text-3"> studio_globalrancangselaras@yahoo.com <br>Jl. Apel No. 111, Nglaban, Ngaglik <br>Sleman, Yogyakarta, Indonesia 55581 <br>+62 274 880637 </p>
+									<p class="u-custom-font u-text u-text-custom-color-4 u-text-3"> studio_globalrancangselaras@yahoo.com <br>Jl. Apel No. 111, Nglaban, Ngaglik <br>Sleman, Yogyakarta, Indonesia 55581 <br>+62 274 880637 <br>
+                   <br>
+                    <a href="#" style="display: flex; align-items: center; color: #1A1A1A;">
+											<img src="{{asset('frontend/images/wa.png')}}" style="width: 168px; padding-right: 10px;" alt="">
+										</a>
+										<br>
+                  </p>
 								</div>
 							</div>
 							<div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
 								<div class="u-container-layout u-valign-top u-container-layout-2">
 									<div class="u-expanded-width u-form u-form-1">
-										<form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
-											<div class="u-form-group u-form-name u-label-none">
-												<label for="name-3b9a" class="u-label">Name</label>
-												<input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
+                    <div class="login-wrap">
+											<div class="login-html">
+												<input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+												<label for="tab-1" class="tab u-text-1">Business</label>
+												<input id="tab-2" type="radio" name="tab" class="sign-up">
+												<label for="tab-2" class="tab u-text-1">Firm</label>
+												<div class="login-form">
+													<div class="sign-in-htm">
+														<form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
+															<div class="u-form-group u-form-name u-label-none">
+																<label for="name-3b9a" class="u-label">Name</label>
+																<input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
+															</div>
+															<div class="u-form-email u-form-group u-label-none">
+																<label for="email-3b9a" class="u-label">Email</label>
+																<input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
+															</div>
+															<div class="u-form-group u-form-message u-label-none">
+																<label for="message-3b9a" class="u-label">Message</label>
+																<textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
+															</div>
+															<div class="u-align-left u-form-group u-form-submit">
+																<a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-custom-font u-btn-1">Submit</a>
+																<input type="submit" value="submit" class="u-form-control-hidden">
+															</div>
+															<div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+															<div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+															<input type="hidden" value="" name="recaptchaResponse">
+															<input type="hidden" name="formServices" value="708845bc9be8a28d5347aa4cd10bf0a1">
+														</form>
+													</div>
+													<div class="sign-up-htm">
+														<form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
+															<div class="u-form-group u-form-name u-label-none">
+																<label for="name-3b9a" class="u-label">Name</label>
+																<input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
+															</div>
+															<div class="u-form-email u-form-group u-label-none">
+																<label for="email-3b9a" class="u-label">Email</label>
+																<input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
+															</div>
+															<div class="u-form-group u-form-message u-label-none">
+																<label for="message-3b9a" class="u-label">Message</label>
+																<textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
+															</div>
+															<div class="u-align-left u-form-group u-form-submit">
+																<a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-custom-font u-btn-1">Submit</a>
+																<input type="submit" value="submit" class="u-form-control-hidden">
+															</div>
+															<div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+															<div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+															<input type="hidden" value="" name="recaptchaResponse">
+															<input type="hidden" name="formServices" value="708845bc9be8a28d5347aa4cd10bf0a1">
+														</form>
+													</div>
+												</div>
 											</div>
-											<div class="u-form-email u-form-group u-label-none">
-												<label for="email-3b9a" class="u-label">Email</label>
-												<input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
-											</div>
-											<div class="u-form-group u-form-message u-label-none">
-												<label for="message-3b9a" class="u-label">Message</label>
-												<textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
-											</div>
-											<div class="u-align-left u-form-group u-form-submit">
-												<a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-custom-font u-btn-1">Submit</a>
-												<input type="submit" value="submit" class="u-form-control-hidden">
-											</div>
-											<div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-											<div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-											<input type="hidden" value="" name="recaptchaResponse">
-											<input type="hidden" name="formServices" value="708845bc9be8a28d5347aa4cd10bf0a1">
-										</form>
+										</div>
 									</div>
 								</div>
 							</div>
