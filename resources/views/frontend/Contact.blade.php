@@ -49,15 +49,15 @@
 														<form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
 															<div class="u-form-group u-form-name u-label-none">
 																<label for="name-3b9a" class="u-label">Name</label>
-																<input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
+																<input type="text" placeholder="Enter your Name bisnis" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
 															</div>
 															<div class="u-form-email u-form-group u-label-none">
 																<label for="email-3b9a" class="u-label">Email</label>
-																<input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
+																<input type="email" placeholder="Enter a valid email address bisnis" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
 															</div>
 															<div class="u-form-group u-form-message u-label-none">
 																<label for="message-3b9a" class="u-label">Message</label>
-																<textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
+																<textarea placeholder="Enter your message bisnis" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
 															</div>
 															<div class="u-align-left u-form-group u-form-submit">
 																<a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-custom-font u-btn-1">Submit</a>
@@ -73,15 +73,15 @@
 														<form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
 															<div class="u-form-group u-form-name u-label-none">
 																<label for="name-3b9a" class="u-label">Name</label>
-																<input type="text" placeholder="Enter your Name" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
+																<input type="text" placeholder="Enter your Name firm" id="name-3b9a" name="name" class="u-custom-font u-input u-input-rectangle u-input-1" required="">
 															</div>
 															<div class="u-form-email u-form-group u-label-none">
 																<label for="email-3b9a" class="u-label">Email</label>
-																<input type="email" placeholder="Enter a valid email address" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
+																<input type="email" placeholder="Enter a valid email address firm" id="email-3b9a" name="email" class="u-custom-font u-input u-input-rectangle u-input-2" required="">
 															</div>
 															<div class="u-form-group u-form-message u-label-none">
 																<label for="message-3b9a" class="u-label">Message</label>
-																<textarea placeholder="Enter your message" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
+																<textarea placeholder="Enter your message firm" rows="4" cols="50" id="message-3b9a" name="message" class="u-custom-font u-input u-input-rectangle u-input-3" required=""></textarea>
 															</div>
 															<div class="u-align-left u-form-group u-form-submit">
 																<a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-3 u-custom-font u-btn-1">Submit</a>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Anabata-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/CircularStd-Bold.otf);
+  }@font-face {
+    font-family: 'Anabata-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/CircularStd-Light.otf);
+  }
+
+
+.title-1{
+    font-family: 'Anabata-Bold';
+    font-size:30px;
+    margin-top:50px;
+    margin-bottom:25px;
+}
+
