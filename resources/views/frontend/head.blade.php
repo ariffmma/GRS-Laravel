@@ -21,8 +21,8 @@
 <meta name="theme-color" content="#ffffff">
 <meta name="keywords" content="desain rumah sakit, arsitekture rumah sakit, hospitality, desain hospital, architecture, architecture news, architecture design, architecture magazine, architect, design news, buildings, interiors, interior design, portfolio, architecture brands, ecatalog, catalogue, katalog, material, katalog material, gedung, rumah, residential, apartement, mall, sekolah, rumah sakit, catalog building, catalog building material, katalog bangunan, katalog bahan bangunan, acp, wood, semen, mortar, waterproofing, sanitair, gypsum, keramik, genteng, bata,  konsultan, arsitek, engineering, struktur, quantity surveyor, RAB, rencana anggaran biaya, sipil, teknik sipil, mechanical, electrical, plumbing, sakelar, trafo, genset, MEP, desain, design, design interior, interior, developer, project, proyek, harga material, perhitungan RAB, perhitungan struktur, cara pemasangan, aplikasi, ukuran, spesifikasi, detail, CAD, auto CAD, konstruksi, quantity surveyor, QS, denah, perhitungan struktur, tender, pembangunan, detail drawing, construction, konsultan, consultant, architect, arsitektur, basement, laminate, denah, siteplanning, landscape, aluminium, drafter, produk, produk material, bahan bangunan, tukang, deskripsi, civil work, distributor, resources, informasi produk, toko material, toko bahan bangunan, mitra 10, pameran bahan bangunan, brand material, indobuildtech, keramika, specifier, sales project, kontraktor, teknisi, cluster, shophouse, facade, fasad, kolom, balok, rangka atap, rangka baja, listrik, eksterior, interior, estimasi, RKS, Rencana Kerja dan syarat, pondasi, kaca, BQ, Bill of quantity, aplikator, furniture">
 <!-- meta yang kurang: card, canonical -->
-<link rel="stylesheet" href="{{asset('frontend/nicepage.css?ver=1')}}" media="screen">
-<link rel="stylesheet" href="{{asset('frontend/Header.css')}}" media="screen">
+<link rel="stylesheet" href="{{asset('frontend/nicepage.css?ver=')}}{{ date('YmdHis')}}" media="screen">
+<link rel="stylesheet" href="{{asset('frontend/Header.css?ver=')}}{{ date('YmdHis')}}" media="screen">
 <script class="u-script" type="text/javascript" src="{{asset('frontend/js/jquery.js')}}" defer=""></script>
 <script class="u-script" type="text/javascript" src="{{asset('frontend/js/nicepage.js')}}" defer=""></script>
 <meta name="generator" content="Nicepage 5.11.4, nicepage.com">
@@ -41,3 +41,9 @@
 <meta property="og:title" content="GRS | Architecture Firm">
 <meta property="og:type" content="website">
 <meta data-intl-tel-input-cdn-path="intlTelInput/">
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{asset('frontend/Custom.css?ver=')}}{{ date('YmdHis')}}" media="screen">

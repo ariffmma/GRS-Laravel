@@ -18,3 +18,56 @@
     margin-bottom:25px;
 }
 
+
+
+
+
+
+
+.btn-title-filter{
+  color: #1a1a1a;
+  text-decoration: none;
+  font-family: Anabata-Light;
+  font-size: 1rem;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  cursor: default;
+}
+.btn-title-filter:hover{
+  color: #1a1a1a;
+}
+.btn-filter{
+  color: #1a1a1a;
+  text-decoration: none;
+  font-family: Anabata-Bold;
+  font-size: 1rem;
+  margin: 0 20px 0 0;
+}
+.btn-filter:hover{
+  color: #f07f3b;
+}
+.filter-items{
+  padding: 0.25rem 1rem;
+  color: #1a1a1a;
+  font-family: Anabata-Light;
+  font-size: 1rem;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+}
+.filter-items:hover{
+  color: #f07f3b !important;
+}
+.dropdown-menu{
+  min-width: 15rem !important;
+}
+@media (min-width: 992px) {
+  .mobile-filter{
+    display: none;
+  }
+}
+
+
+
+
+
+

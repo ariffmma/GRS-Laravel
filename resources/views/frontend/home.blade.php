@@ -35,6 +35,12 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</section>
+		<div class="container px-0">
+			<div class="title-1">News</div>
+			<div class="content">
+				
+			</div>
+		</div>
 		<section class="u-clearfix u-section-2" id="sec-f737">
 			<div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
 				<h1 class="u-align-left u-custom-font u-text u-text-1">News</h1>

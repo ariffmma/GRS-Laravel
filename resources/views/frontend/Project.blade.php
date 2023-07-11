@@ -13,17 +13,92 @@
 						<div class="u-layout-row">
 							<div class="u-container-style u-hidden-md u-hidden-sm u-hidden-xs u-layout-cell u-size-11-lg u-size-11-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-1">
 								<div class="u-container-layout u-container-layout-1">
-									<h1 class="u-custom-font u-text u-text-1">All</h1>
-									<h1 class="u-custom-font u-text u-text-2">Rumah Sakit</h1>
-									<h1 class="u-custom-font u-text u-text-3">Fasilitas Pendidikan</h1>
-									<h1 class="u-custom-font u-text u-text-4">Mixed Use</h1>
-									<h1 class="u-custom-font u-text u-text-5">Hospitality</h1>
-									<h1 class="u-custom-font u-text u-text-6">Fasilitas Komersial</h1>
-									<h1 class="u-custom-font u-text u-text-7">Fasilitas Publik</h1>
-									<h1 class="u-custom-font u-text u-text-8">Residential</h1>
-									<h1 class="u-custom-font u-text u-text-9">Kawasan</h1>
+                  <div class="dropdown mb-3">
+                    <a class="btn-title-filter">
+                      Select By
+                    </a>
+                  </div>
+                  <div class="dropdown">
+                    <a class="btn-filter dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="filter-items" href="#">Rumah Sakit</a></li>
+                      <li><a class="filter-items" href="#">Fasilitas Pendidikan</a></li>
+                      <li><a class="filter-items" href="#">Mixed Use</a></li>
+                      <li><a class="filter-items" href="#">Hospitality</a></li>
+                      <li><a class="filter-items" href="#">Fasilitas Komersial</a></li>
+                      <li><a class="filter-items" href="#">Fasilitas Publik</a></li>
+                      <li><a class="filter-items" href="#">Residential</a></li>
+                      <li><a class="filter-items" href="#">Kawasan</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <a class="btn-filter dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Year
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="filter-items" href="#">2023</a></li>
+                      <li><a class="filter-items" href="#">2022</a></li>
+                      <li><a class="filter-items" href="#">2021</a></li>
+                      <li><a class="filter-items" href="#">2020</a></li>
+                      <li><a class="filter-items" href="#">2019</a></li>
+                      <li><a class="filter-items" href="#">2018</a></li>
+                      <li><a class="filter-items" href="#">2017</a></li>
+                      <li><a class="filter-items" href="#">2016</a></li>
+                    </ul>
+                  </div>
 								</div>
 							</div>
+
+              <div class="mobile-filter mb-3">
+                <div class="dropdown">
+                  <a class="btn-title-filter">
+                    Select By
+                  </a>
+                </div>
+                <div class="dropdown">
+                  <a class="btn-filter dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="filter-items" href="#">Rumah Sakit</a></li>
+                    <li><a class="filter-items" href="#">Fasilitas Pendidikan</a></li>
+                    <li><a class="filter-items" href="#">Mixed Use</a></li>
+                    <li><a class="filter-items" href="#">Hospitality</a></li>
+                    <li><a class="filter-items" href="#">Fasilitas Komersial</a></li>
+                    <li><a class="filter-items" href="#">Fasilitas Publik</a></li>
+                    <li><a class="filter-items" href="#">Residential</a></li>
+                    <li><a class="filter-items" href="#">Kawasan</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn-filter dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Year
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="filter-items" href="#">2023</a></li>
+                    <li><a class="filter-items" href="#">2022</a></li>
+                    <li><a class="filter-items" href="#">2021</a></li>
+                    <li><a class="filter-items" href="#">2020</a></li>
+                    <li><a class="filter-items" href="#">2019</a></li>
+                    <li><a class="filter-items" href="#">2018</a></li>
+                    <li><a class="filter-items" href="#">2017</a></li>
+                    <li><a class="filter-items" href="#">2016</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+             
 							<div class="u-container-style u-layout-cell u-size-49-lg u-size-49-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-2">
 								<div class="u-container-layout u-container-layout-2">
 									<div class="u-expanded-width u-list u-list-1">

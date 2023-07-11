@@ -27632,8 +27632,8 @@ a.u-button-style.u-button-style.active > .u-active-palette-1-light-2[class*="u-b
 li.active > a.u-button-style.u-button-style.u-active-palette-1-light-2,
 li.active > a.u-button-style.u-button-style.u-active-palette-1-light-2[class*="u-border-"],
 input.u-field-input.u-field-input.u-active-palette-1-light-2:checked {
-  color: #111111 !important;
-  background-color: #adcce9 !important;
+  color: #fff !important;
+  background-color: #f07f3b  !important;
 }
 a.u-link.u-hover-palette-1-light-2:hover {
   color: #adcce9 !important;
