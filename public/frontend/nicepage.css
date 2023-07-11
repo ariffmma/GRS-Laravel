@@ -42623,7 +42623,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 72px;
+  min-height: 82px;
 }
 
 .u-header .u-menu-1 {
@@ -42633,7 +42633,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 500;
   font-family: CircularStd-Light;
-  font-size: 0.75rem;
+  font-size: 15px;
   letter-spacing: 2px;
 }
 

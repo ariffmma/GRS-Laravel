@@ -71,3 +71,49 @@
 
 
 
+
+
+.image-logo{
+  width: 147px;
+}
+.nav-text{
+  padding: 10px !important;
+  font-size: 15px !important;
+  letter-spacing:2px !important;
+  font-weight:500 !important;
+  font-family: Anabata-Light !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+.btn-color{
+  font-size: 15px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  font-family: Anabata-Light;
+  color: white !important;
+  width: 57px;
+  background-color: #ffffff2e
+}
+.mobile-navbar{
+  display: none
+}
+@media (max-width: 991px) {
+  .mobile-navbar{
+    display: flex
+  }
+  .desktop-navbar{
+    display:none
+  }
+  .image-logo{
+    width:112px
+  }
+}
+@media (max-width: 575px) {
+  .image-logo{
+    width:96px
+  }
+  .btn-color{
+    width: 47px;
+    font-size: 10px;
+  }
+}
