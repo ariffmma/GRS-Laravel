@@ -47,7 +47,7 @@
             </div>
             <div class="col-2 d-flex justify-content-end">
                 <div class="btn-group" role="group" >
-                    <button type="button" class="btn btn-color">ID</button>
+                    <button type="button" class="btn btn-color aktif">ID</button>
                     <button type="button" class="btn btn-color">ENG</button>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="col px-2">
               <div class="d-flex justify-content-end align-items-center">
                 <div class="btn-group pe-3" role="group" >
-                    <button type="button" class="btn btn-color">ID</button>
+                    <button type="button" class="btn btn-color aktif">ID</button>
                     <button type="button" class="btn btn-color">ENG</button>
                 </div>
                 <nav class="u-menu u-menu-dropdown u-offcanvas ">
