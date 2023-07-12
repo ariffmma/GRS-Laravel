@@ -2,6 +2,8 @@
 <html style="font-size: 16px;" lang="en"><head>
 @include('frontend.head')
 <link rel="stylesheet" href="{{asset('frontend/Project-Detail.css?ver=')}}{{ date('YmdHis')}}" media="screen">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
   <body class="u-body u-overlap u-xl-mode" data-lang="en">
 		@include('frontend.header')
@@ -122,7 +124,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 							</div>
 							<div class="u-container-style u-layout-cell u-size-15 u-layout-cell-2">
 								<div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-2">
-									<img class="u-expanded-width u-image u-image-default u-image-3" src="{{asset('frontend/images/map1.png')}}" alt="" data-image-width="257" data-image-height="146">
+									<div id="map"></div>
 									<h1 class="u-custom-font u-text u-text-5">PT Global Rancang Selaras</h1>
 									<h1 class="u-custom-font u-text u-text-6">Location</h1>
 									<h1 class="u-custom-font u-text u-text-7">Bogor</h1>
@@ -398,4 +400,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 				<path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path>
 			</svg>
 		</span>
-</body></html>
+		<script>
+			var map = L.map('map').setView([1.3366901960542341, 103.79362408539633], 13);
+			var marker = L.marker([1.3366901960542341, 103.79362408539633]).addTo(map);
+			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 19,
+			attribution: 'GRS'
+		}).addTo(map);
+		  </script>
+	</body>
+</html>

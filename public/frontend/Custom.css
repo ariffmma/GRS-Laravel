@@ -164,3 +164,8 @@
   
   }
 }
+
+.leaflet-container a {
+  font-size: 12px !important;
+}
+#map { height: 180px; }
