@@ -9,7 +9,7 @@
 		<section class="u-clearfix u-image u-valign-middle u-section-1" id="sec-0dda" data-image-width="1920" data-image-height="1080"></section>
     <section class="u-clearfix u-section-2" id="sec-19eb">
       <img class="u-expanded-width u-image u-image-default u-image-1" src="{{asset('frontend/images/RSEMCSentulDJI_0261.jpg')}}" alt="" data-image-width="1024" data-image-height="768">
-      <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-1"> Lorem ipsum dolor sit amet</p>
+      <p class="u-custom-font u-text u-text-body-alt-color u-text-default u-text-1"> Founded in 2004 focuses on integrating design with function, humanity, and business solutions</p>
     </section>
     <section class="u-clearfix u-section-3" id="sec-064e">
       <div class="u-clearfix u-sheet u-sheet-1">

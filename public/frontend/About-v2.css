@@ -20,28 +20,36 @@
 }
 
 .u-section-2 .u-text-1 {
+  font-size: 28px;
+  width: 80%;
+  text-align: center;
   font-family: PlusJakartaSans-Bold;
-  font-size: 3rem;
   margin: -218px auto 57px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-text-1 {
-    font-size: 2.25rem;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-text-1 {
-    font-size: 1.875rem;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-text-1 {
-    font-size: 1rem;
+    font-size: 20px;
   }
-}.u-section-3 .u-sheet-1 {
+}
+@media (max-width: 450px) {
+  .u-section-2 .u-text-1 {
+    font-size: 15px;
+  }
+}
+.u-section-3 .u-sheet-1 {
   min-height: 425px;
 }
 
