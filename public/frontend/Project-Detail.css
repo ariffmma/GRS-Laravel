@@ -142,7 +142,7 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.875rem;
   margin: 0 16px 0 0;
 }
@@ -161,7 +161,7 @@
 }
 
 .u-section-3 .u-text-2 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1.125rem;
   margin: 0;
 }
@@ -172,7 +172,7 @@
 }
 
 .u-section-3 .u-text-3 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1.125rem;
   margin: 28px 0 0;
 }
@@ -184,7 +184,7 @@
 }
 
 .u-section-3 .u-text-4 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1.125rem;
   margin: 28px 0 0;
 }
@@ -204,43 +204,43 @@
 }
 
 .u-section-3 .u-text-5 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1rem;
   margin: 7px 50px 0 0;
 }
 
 .u-section-3 .u-text-6 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1rem;
   margin: 28px 10px 0 0;
 }
 
 .u-section-3 .u-text-7 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.125rem;
   margin: 7px 10px 0 0;
 }
 
 .u-section-3 .u-text-8 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1rem;
   margin: 19px 10px 0 0;
 }
 
 .u-section-3 .u-text-9 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.125rem;
   margin: 7px 10px 0 0;
 }
 
 .u-section-3 .u-text-10 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 1rem;
   margin: 19px 10px 0 0;
 }
 
 .u-section-3 .u-text-11 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.125rem;
   margin: 8px 10px 0 0;
 }
@@ -497,7 +497,7 @@
 }
 
 .u-section-5 .u-text-1 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.875rem;
   font-weight: 700;
   margin: 10px 799px 0 0;
@@ -529,12 +529,12 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   margin: 10px 0 0;
 }
 
 .u-section-5 .u-text-3 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -555,12 +555,12 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   margin: 10px 0 0;
 }
 
 .u-section-5 .u-text-5 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -582,12 +582,12 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   margin: 10px 0 0;
 }
 
 .u-section-5 .u-text-7 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -609,12 +609,12 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   margin: 10px 0 0;
 }
 
 .u-section-5 .u-text-9 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -636,12 +636,12 @@
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   margin: 10px 0 0;
 }
 
 .u-section-5 .u-text-11 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -745,7 +745,7 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 700;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-size: 1.25rem;
   margin: 40px auto 0;
 }
@@ -757,16 +757,16 @@
 }
 
 .u-section-6 .u-input-1 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
 }
 
 .u-section-6 .u-input-2 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
 }
 
 .u-section-6 .u-btn-1 {
   background-image: none;
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
 }
 
 @media (max-width: 767px) {
@@ -779,14 +779,15 @@
   .u-section-6 .u-form-1 {
     width: 340px;
   }
-}@font-face {
-  font-family: 'CircularStd-Bold';
+}
+@font-face {
+  font-family: 'PlusJakartaSans-Bold';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/CircularStd-Bold.otf);
+  src: url(fonts/PlusJakartaSans-Bold.ttf);
 }@font-face {
-  font-family: 'CircularStd-Light';
+  font-family: 'PlusJakartaSans-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/CircularStd-Light.otf);
+  src: url(fonts/PlusJakartaSans-Regular.ttf);
 }

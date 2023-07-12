@@ -2,7 +2,7 @@
 <html style="font-size: 16px;" lang="en">
 <head>
 @include('frontend.head')
-<link rel="stylesheet" href="{{asset('frontend/News.css')}}" media="screen">
+<link rel="stylesheet" href="{{asset('frontend/News.css?ver=')}}{{ date('YmdHis')}}" media="screen">
 </head>
 	<body class="u-body u-overlap u-xl-mode" data-lang="en">
 	@include('frontend.header')

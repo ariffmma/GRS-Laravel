@@ -14404,7 +14404,7 @@ section.u-image:not(.u-hover-box),
   margin-top: 0;
 }
 .u-block:not([class*="u-spacing-"]) .u-block-header {
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 .u-content {
   flex: 1 1 auto;
@@ -42201,7 +42201,7 @@ a.u-link.u-text-hover-grey-90:hover {
         font-weight: 400;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
-        font-family: CircularStd-Light;
+        font-family: PlusJakartaSans-Regular;
         }
         h4
         {
@@ -42632,7 +42632,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-weight: 500;
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 15px;
   letter-spacing: 2px;
 }
@@ -42761,13 +42761,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-1 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Regular;
   font-weight: normal;
   font-size: 1.25rem;
 }
 
 .u-footer .u-text-2 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
 }
 
@@ -42786,13 +42786,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-3 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-weight: normal;
   font-size: 1.25rem;
 }
 
 .u-footer .u-text-4 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
 }
 
@@ -42812,12 +42812,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-5 {
-  font-family: CircularStd-Bold;
+  font-family: PlusJakartaSans-Bold;
   font-weight: normal;
 }
 
 .u-footer .u-text-6 {
-  font-family: CircularStd-Light;
+  font-family: PlusJakartaSans-Regular;
   font-size: 0.875rem;
 }
 
@@ -42952,7 +42952,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    font-family: CircularStd-Light;
+    font-family: PlusJakartaSans-Regular;
     font-weight: 900;
     font-size: 1.125rem;
   }
@@ -42962,7 +42962,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-3 {
-    font-family: CircularStd-Light;
+    font-family: PlusJakartaSans-Regular;
     font-weight: 900;
     font-size: 1.125rem;
   }
@@ -42972,7 +42972,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-5 {
-    font-family: CircularStd-Light;
+    font-family: PlusJakartaSans-Regular;
     font-weight: 900;
   }
 

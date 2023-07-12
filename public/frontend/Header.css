@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'CircularStd-Bold';
-    font-style: normal;
-    font-weight: 400;
-    src: url(fonts/CircularStd-Bold.otf);
-  }@font-face {
-    font-family: 'CircularStd-Light';
-    font-style: normal;
-    font-weight: 400;
-    src: url(fonts/CircularStd-Light.otf);
-  }
+  font-family: 'PlusJakartaSans-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/PlusJakartaSans-Bold.ttf);
+}@font-face {
+  font-family: 'PlusJakartaSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/PlusJakartaSans-Regular.ttf);
+}
   .lang{
       width: 100px;
       display: flex;
@@ -36,7 +36,7 @@
 
     .theme-popup {
       color: #1a1a1a;
-      font-family: CircularStd-Light;
+      font-family: PlusJakartaSans-Regular;
       position: relative;
       user-select: none;
     }
@@ -52,7 +52,7 @@
       border-radius: 0.3125em;
       border: none;
       color: inherit;
-      font-family: CircularStd-Light;
+      font-family: PlusJakartaSans-Regular;
       outline: none;
     }
     .select-lang{
@@ -64,7 +64,7 @@
   
 
  .nav-title{
-  font-family: CircularStd-Light !important;
+  font-family: PlusJakartaSans-Regular !important;
   color: rgb(0, 0, 0) !important;
   letter-spacing: 1px !important;
  }
