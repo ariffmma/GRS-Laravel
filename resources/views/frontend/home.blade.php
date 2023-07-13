@@ -113,6 +113,35 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 				<div class="u-border-1 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-opacity u-opacity-20 u-line-1"></div>
 			</div>
 		</section>
+
+	
+		<section class="u-clearfix u-section-7" id="sec-3d51">
+			<div class="u-clearfix u-sheet u-sheet-1">
+				<div class="u-clearfix u-expanded-width u-gutter-22 u-layout-wrap u-layout-wrap-1">
+					<div class="u-layout" style="">
+						<div class="u-layout-row" style="">
+							<div class="u-align-left u-container-style u-hover-feature u-layout-cell u-left-cell u-shape-rectangle u-size-30 u-size-xs-60 u-layout-cell-1" src="">
+								<div class="u-container-layout u-valign-top u-container-layout-1">
+									<h2 class="u-custom-font u-text u-text-default u-text-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+									<p class="u-custom-font u-text u-text-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+									<a href="#" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">Learn more</a>
+								</div>
+							</div>
+							<div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" src="" data-href="Project-Detail.html">
+								<div class="u-container-layout u-valign-bottom u-container-layout-2" src="">
+									<img class="u-expanded-width u-image u-image-1" src="{{asset('frontend/images/RSEMCSentulDJI_02611.jpg')}}" data-image-width="1024" data-image-height="742" data-href="Project-Detail.html">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+		<section class="u-clearfix u-section-6" id="sec-6082">
+			<div class="u-clearfix u-sheet u-sheet-1">
+				<div class="u-border-1 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-opacity u-opacity-20 u-line-1"></div>
+			</div>
+		</section>
 		<section class="u-clearfix u-hidden-lg u-hidden-md u-hidden-sm u-hidden-xs u-section-4" id="sec-e893">
 			<div class="u-clearfix u-sheet u-sheet-1">
 				<div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
@@ -287,32 +316,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 				</div>
 			</div>
 		</section>
-		<section class="u-clearfix u-section-6" id="sec-6082">
-			<div class="u-clearfix u-sheet u-sheet-1">
-				<div class="u-border-1 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-opacity u-opacity-20 u-line-1"></div>
-			</div>
-		</section>
-		<section class="u-clearfix u-section-7" id="sec-3d51">
-			<div class="u-clearfix u-sheet u-sheet-1">
-				<div class="u-clearfix u-expanded-width u-gutter-22 u-layout-wrap u-layout-wrap-1">
-					<div class="u-layout" style="">
-						<div class="u-layout-row" style="">
-							<div class="u-align-left u-container-style u-hover-feature u-layout-cell u-left-cell u-shape-rectangle u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-								<div class="u-container-layout u-valign-top u-container-layout-1">
-									<h2 class="u-custom-font u-text u-text-default u-text-1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-									<p class="u-custom-font u-text u-text-2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-									<a href="#" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">Learn more</a>
-								</div>
-							</div>
-							<div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" src="" data-href="Project-Detail.html">
-								<div class="u-container-layout u-valign-bottom u-container-layout-2" src="">
-									<img class="u-expanded-width u-image u-image-1" src="{{asset('frontend/images/RSEMCSentulDJI_02611.jpg')}}" data-image-width="1024" data-image-height="742" data-href="Project-Detail.html">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section> @include('frontend.footer')
+		
+		
+		
+		@include('frontend.footer')
 	</body>
 </html>
