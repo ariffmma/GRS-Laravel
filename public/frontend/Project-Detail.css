@@ -90,7 +90,7 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 524px;
+    min-height: 480px;
   }
 
   .u-section-2 .u-gallery-1 {
@@ -120,7 +120,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 455px;
+    min-height: 476px;
   }
 
   .u-section-2 .u-gallery-1 {
@@ -130,16 +130,15 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 438px;
+    min-height: 556px;
   }
 
   .u-section-2 .u-gallery-1 {
     height: 428px;
     margin-bottom: -158px;
   }
-}.u-section-3 .u-sheet-1 {
-  min-height: 1880px;
 }
+
 
 .u-section-3 .u-text-1 {
   font-family: PlusJakartaSans-Bold;
@@ -246,9 +245,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 1942px;
-  }
+
 
   .u-section-3 .u-text-1 {
     margin-right: 0;
@@ -325,9 +322,7 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 2116px;
-  }
+
 
   .u-section-3 .u-layout-cell-1 {
     min-height: 2108px;
@@ -361,17 +356,15 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 2568px;
-  }
+
 
   .u-section-3 .u-text-1 {
     font-size: 1.5rem;
-    margin-top: -226px;
+    /* margin-top: -226px; */
   }
 
   .u-section-3 .u-layout-wrap-1 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: -226px;
   }
 
@@ -438,9 +431,7 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 3000px;
-  }
+
 
   .u-section-3 .u-text-1 {
     font-size: 1.25rem;
@@ -492,15 +483,13 @@
     margin-right: initial;
     margin-left: initial;
   }
-}.u-section-5 .u-sheet-1 {
-  min-height: 543px;
 }
 
 .u-section-5 .u-text-1 {
   font-family: PlusJakartaSans-Bold;
   font-size: 1.875rem;
   font-weight: 700;
-  margin: 10px 799px 0 0;
+  margin: -10px 799px 0px 0px;
 }
 
 .u-section-5 .u-blog-1 {
@@ -666,9 +655,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 474px;
-  }
+
 
   .u-section-5 .u-text-1 {
     margin-right: 599px;
@@ -790,4 +777,21 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/PlusJakartaSans-Regular.ttf);
+}
+
+.garis{
+  margin-bottom: 20px;
+  margin-top:0;
+}
+@media (max-width: 767px) {
+  .garis{
+    margin-bottom: 0px;
+    margin-top:235px;
+  }
+}
+@media (max-width: 575px) {
+  .garis{
+    margin-bottom: 9px;
+    margin-top:138px;
+  }
 }

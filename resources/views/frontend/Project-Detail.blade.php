@@ -99,52 +99,36 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 			<div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
 				<h1 class="u-custom-font u-text u-text-1">Bali International Hospital</h1>
 				<div class="u-clearfix u-expanded-width u-gutter-24 u-layout-wrap u-layout-wrap-1">
-					<div class="u-layout">
-						<div class="u-layout-row">
-							<div class="u-container-style u-layout-cell u-size-45 u-layout-cell-1">
-								<div class="u-container-layout u-container-layout-1">
-									<h1 class="u-custom-font u-text u-text-2"> Pengembangan Grand Inna Beach menjadi Kawasan Ekonomi Khusus (KEK) di Sanur meliputi pembangunan medical tourism untuk pasien domestik dan mancanegara. Berdiri di lahan seluas 7.5 hektar, Bali International Hospital dikembangkan menjadi tiga tahap di mana dua fase pertama dibangun bersama dengan proses awal dan fase ketiga sebagai tahap akhir pengembangan. Letaknya yang tepat di tepi pantai, menjadi latar belakang desain rumah sakit dibuat lebih rendah ke arah laut untuk memaksimalkan pencahayaan, sirkulasi udara, dan memberikan akses view terbaik. <br>
-										<br>Global Rancang Selaras mengadopsi konsep budaya Bali Nawasanga dan Tri Angga yang diaplikasikan pada desain rumah sakit secara horizontal dan vertikal. Dengan orientasi ini, bangunan akan dihujani cahaya dari berbagai arah mata angin tanpa terkena paparan langsung dari sinar dan suhu panas matahari. Setiap bangunan di masing-masing fase juga dapat memaksimalkan orientasinya ke taman innercourt.&nbsp;&nbsp; <br>
-									</h1>
-									<img class="u-expanded-width u-image u-image-default u-image-1" src="{{asset('frontend/images/06WAITINGCLINICS.jpg')}}" alt="" data-image-width="2000" data-image-height="1427">
-									<h1 class="u-custom-font u-text u-text-3"> Program ruang dalam tiap fase massa bangunan dikembangkan secara komprehensif berdasarkan aspek green hospital sekaligus menempatkan diri sebagai medical tourism. Rumah sakit ini dibagi menjadi empat lantai yang masing-masing memiliki fungsi dan kepentingan yang berbeda. <br>
-										<br>Lantai satu terdapat ruang gawat darurat yang terletak di bagian paling depan rumah sakit dengan daya tampung sebanyak 21 bed. Instalasi ini memiliki drop off sendiri dengan akses terpisah dari akses lainnya yang berada di sisi selatan rumah sakit. Diagnostik seperti radiologi ditempatkan sedekat mungkin dengan area gawat darurat agar saling terkoneksi.&nbsp; <br>
-										<br>Area pelayanan terpusat terletak di sudut gedung rumah sakit. Area ini memiliki drop off di sisi selatan yang terpisah dari drop off ruang gawat darurat. Terdapat pula lobby dan commercial space di area ini yang terintegrasi oleh sunken garden di antaranya dan terhubung secara vertikal dengan lift layanan.&nbsp; <br>
-										<br>Untuk memudahkan akses layanan kesehatan bagi masyarakat, lantai satu juga mengakomodasi ruang medical check up, BPJS, dan dua klinik umum baik nasional ataupun internasional.&nbsp; <br>
-									</h1>
-									<img class="u-expanded-width u-image u-image-default u-image-2" src="{{asset('frontend/images/08WARD.jpg')}}" alt="" data-image-width="2000" data-image-height="1250">
-									<h1 class="u-custom-font u-text u-text-4"> Ruang rawat inap didistribusikan di lantai 2 hingga lantai 4 sebanyak 300 bed. Lantai dua menapung zona dengan risiko tinggi seperti Unit Perawatan Intensif (ICU) dan Intermediate Care (IMC). Ruangan lain seperti neurologi, onkologi, dan service area ditempatkan mengelilingi sisi selatan dan barat bangunan. <br>
-										<br>Klinik yang terletak di lantai 3 dilengkapi dengan ECG, EMG dan Ruang Latihan. Selanjutnya, Center of Excellence Wellness &amp; Beauty diletakkan di sisi timur rumah sakit untuk mendapatkan sinar matahari dan mengoptimalkan perawatan dan program seperti yoga, fitnes, dan spa.&nbsp; <br>
-										<br>Untuk perawatan estetik yang melibatkan pembedahan dan prosedur lainnya, pasien dapat menuju ke area lantai 4 (Plastic Surgery COE) yang terhubung dengan OT secara vertikal dengan lift medis.&nbsp; <br>
-										<br>Pengobatan penyakit tulang dan otot dilayani oleh klinik rehabilitasi medis, kedokteran olahraga, dan ortopedi yang terletak di lantai 4. Ketiga instalasi ini saling berhubungan dan didukung oleh unit ruang operasi berdasarkan diagnosa dan perawatan yang dibutuhkan.&nbsp; <br>
-										<br>Sirkulasi vertikal merupakan salah satu elemen penting untuk menghubungkan instalasi medis antara lantai atas dan lantai bawah. Desain ini dibedakan menjadi 4 macam tipe. Medical lift yang menghubungkan gawat darurat, radiologi ke unit medis pusat dan pendukungnya. Lift umum digunakan untuk pasien sehat atau keluarganya yang berkunjung di bangsal. Sementara untuk layanan pendukung menggunakan dua tipe lift.&nbsp; <br>
-										<br>Aspek green hospital untuk pengembangan Bali International Hospital diwujudkan melalui 6 tolok ukur seperti pengembangan situs yang tepat, efisiensi dan konservasi energi, konservasi air, sumber daya material dan konservasi, kesehatan dan kenyamanan ruang dalam, dan manajemen lingkungan bangunan.&nbsp;&nbsp; <br>
-									</h1>
-								</div>
-							</div>
-							<div class="u-container-style u-layout-cell u-size-15 u-layout-cell-2">
-								<div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-xl u-container-layout-2">
-									<div id="map" style="z-index: 1"></div>
-									<h1 class="u-custom-font u-text u-text-5">PT Global Rancang Selaras</h1>
-									<h1 class="u-custom-font u-text u-text-6">Location</h1>
-									<h1 class="u-custom-font u-text u-text-7">Bogor</h1>
-									<h1 class="u-custom-font u-text u-text-8">Scale</h1>
-									<h1 class="u-custom-font u-text u-text-9">25.000 m</h1>
-									<h1 class="u-custom-font u-text u-text-10">Year</h1>
-									<h1 class="u-custom-font u-text u-text-11">2011</h1>
-								</div>
-							</div>
+					<div class="row mt-3">
+						<div class="col-md-9 col-12 mb-3">
+							<p>Pengembangan Grand Inna Beach menjadi Kawasan Ekonomi Khusus (KEK) di Sanur meliputi pembangunan medical tourism untuk pasien domestik dan mancanegara. Berdiri di lahan seluas 7.5 hektar, Bali International Hospital dikembangkan menjadi tiga tahap di mana dua fase pertama dibangun bersama dengan proses awal dan fase ketiga sebagai tahap akhir pengembangan. Letaknya yang tepat di tepi pantai, menjadi latar belakang desain rumah sakit dibuat lebih rendah ke arah laut untuk memaksimalkan pencahayaan, sirkulasi udara, dan memberikan akses view terbaik. <br>
+								<br>Global Rancang Selaras mengadopsi konsep budaya Bali Nawasanga dan Tri Angga yang diaplikasikan pada desain rumah sakit secara horizontal dan vertikal. Dengan orientasi ini, bangunan akan dihujani cahaya dari berbagai arah mata angin tanpa terkena paparan langsung dari sinar dan suhu panas matahari. Setiap bangunan di masing-masing fase juga dapat memaksimalkan orientasinya ke taman innercourt.&nbsp;&nbsp; <br></p>
+								<img class="u-expanded-width u-image u-image-default u-image-1" src="{{asset('frontend/images/06WAITINGCLINICS.jpg')}}" alt="" data-image-width="2000" data-image-height="1427">
+								<p>Pengembangan Grand Inna Beach menjadi Kawasan Ekonomi Khusus (KEK) di Sanur meliputi pembangunan medical tourism untuk pasien domestik dan mancanegara. Berdiri di lahan seluas 7.5 hektar, Bali International Hospital dikembangkan menjadi tiga tahap di mana dua fase pertama dibangun bersama dengan proses awal dan fase ketiga sebagai tahap akhir pengembangan. Letaknya yang tepat di tepi pantai, menjadi latar belakang desain rumah sakit dibuat lebih rendah ke arah laut untuk memaksimalkan pencahayaan, sirkulasi udara, dan memberikan akses view terbaik. <br>
+									<br>Global Rancang Selaras mengadopsi konsep budaya Bali Nawasanga dan Tri Angga yang diaplikasikan pada desain rumah sakit secara horizontal dan vertikal. Dengan orientasi ini, bangunan akan dihujani cahaya dari berbagai arah mata angin tanpa terkena paparan langsung dari sinar dan suhu panas matahari. Setiap bangunan di masing-masing fase juga dapat memaksimalkan orientasinya ke taman innercourt.&nbsp;&nbsp; <br></p>
+									<p>Pengembangan Grand Inna Beach menjadi Kawasan Ekonomi Khusus (KEK) di Sanur meliputi pembangunan medical tourism untuk pasien domestik dan mancanegara. Berdiri di lahan seluas 7.5 hektar, Bali International Hospital dikembangkan menjadi tiga tahap di mana dua fase pertama dibangun bersama dengan proses awal dan fase ketiga sebagai tahap akhir pengembangan. Letaknya yang tepat di tepi pantai, menjadi latar belakang desain rumah sakit dibuat lebih rendah ke arah laut untuk memaksimalkan pencahayaan, sirkulasi udara, dan memberikan akses view terbaik. <br>
+										<br>Global Rancang Selaras mengadopsi konsep budaya Bali Nawasanga dan Tri Angga yang diaplikasikan pada desain rumah sakit secara horizontal dan vertikal. Dengan orientasi ini, bangunan akan dihujani cahaya dari berbagai arah mata angin tanpa terkena paparan langsung dari sinar dan suhu panas matahari. Setiap bangunan di masing-masing fase juga dapat memaksimalkan orientasinya ke taman innercourt.&nbsp;&nbsp; <br></p>
+									</div>
+						<div class="col-md-3 col-12">
+							<div class="mt-1" id="map" style="z-index: 1"></div>
+							<h1 class="u-custom-font u-text u-text-5">PT Global Rancang Selaras</h1>
+							<h1 class="u-custom-font u-text u-text-6">Location</h1>
+							<h1 class="u-custom-font u-text u-text-7">Bogor</h1>
+							<h1 class="u-custom-font u-text u-text-8">Scale</h1>
+							<h1 class="u-custom-font u-text u-text-9">25.000 m</h1>
+							<h1 class="u-custom-font u-text u-text-10">Year</h1>
+							<h1 class="u-custom-font u-text u-text-11">2011</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="u-clearfix u-section-4" id="sec-28f1">
-			<div class="u-clearfix u-sheet u-sheet-1">
-				<div class="u-border-1 u-border-grey-dark-1 u-expanded-width u-line u-line-horizontal u-opacity u-opacity-20 u-line-1"></div>
+		<section class="u-clearfix u-section-3 garis" id="sec-192c" >
+			<div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+			<hr>
 			</div>
 		</section>
-		<section class="u-clearfix u-section-5" id="sec-1b37">
+		<section class="u-clearfix u-section-5 mb-3" id="sec-1b37">
 			<div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
 				<h1 class="u-custom-font u-text u-text-1">Related Post</h1>
 				<!--blog-->
