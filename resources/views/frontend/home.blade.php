@@ -9,11 +9,21 @@
 				<li data-u-target="#carousel_e528" class="u-grey-30" data-u-slide-to="1"></li>
 			</ol>
 			<div class="u-carousel-inner" role="listbox">
-				<div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1024" data-image-height="573">
+				{{-- <div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1024" data-image-height="573">
 					<div class="u-clearfix u-sheet u-sheet-1"></div>
 				</div>
 				<div class="u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-2" src="" data-image-width="1024" data-image-height="768">
 					<div class="u-clearfix u-sheet u-sheet-1"></div>
+				</div> --}}
+				<div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1024" data-image-height="573">
+					<div class="item item--third">
+						<img src="{{asset('frontend/images/RSSitiKhodijahSepanjang_DSC0289.jpg')}}" />
+					</div>
+				</div>
+				<div class="u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-2" src="" data-image-width="1024" data-image-height="768">
+					<div class="item item--third">
+						<img src="{{asset('frontend/images/RSEMCSentulDJI_02611.jpg')}}" />
+					</div>
 				</div>
 			</div>
 			<a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-hidden u-text-grey-30 u-block-ca07-3" href="#carousel_e528" role="button" data-u-slide="prev">
