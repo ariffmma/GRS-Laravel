@@ -177,7 +177,7 @@
   text-decoration: none;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 15px;
   margin: 0 20px 0 0;
   text-decoration: none;
   cursor: default;
@@ -190,7 +190,7 @@
   text-decoration: none;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 15px;
   margin: 0 20px 0 0;
 }
 .btn-filter:hover{
@@ -200,7 +200,7 @@
   padding: 0.25rem 1rem;
   color: #1a1a1a;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 15px;
   margin: 0 20px 0 0;
   text-decoration: none;
 }

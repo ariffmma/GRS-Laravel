@@ -99,7 +99,7 @@
 }
 
 .u-section-2 .u-container-layout-3 {
-  padding: 0 0 30px;
+  padding: 0 0 0;
 }
 
 .u-section-2 .u-image-1 {
@@ -109,7 +109,7 @@
 }
 
 .u-section-2 .u-text-10 {
-  font-size: 1rem;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -118,7 +118,7 @@
 
 .u-section-2 .u-text-11 {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 0.875rem;
+  font-size: 13px;
   font-weight: 900;
   text-transform: uppercase;
   margin: 8px 0 0;
@@ -336,7 +336,7 @@
   background-image: none;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
-  margin: 40px 0 0 1033px;
+  margin: 0px 0 0 1033px;
   padding: 8px 27px;
 }
 
@@ -448,7 +448,7 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 9px;
+    margin-top: 33px;
     margin-left: 833px;
   }
 
@@ -513,7 +513,7 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 1px;
+    margin-top: 33px;
     margin-right: auto;
     margin-left: 382px;
   }
@@ -536,10 +536,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
     min-height: 600px;
-  }
-
-  .u-section-2 .u-container-layout-3 {
-    padding-bottom: 20px;
   }
 
   .u-section-2 .u-image-1 {
@@ -669,7 +665,7 @@
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 10px;
+    margin-top: 33px;
     margin-left: 183px;
   }
 
