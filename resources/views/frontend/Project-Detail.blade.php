@@ -94,7 +94,7 @@ sebelum </body>
 		
 		<section class="u-clearfix u-section-3" id="sec-192c">
 			<div class="u-clearfix u-sheet u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-				<h1 class="u-custom-font u-text u-text-1">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</h1>
+				<div class="u-custom-font u-text u-text-1">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</div>
 				<div class="u-clearfix u-expanded-width u-gutter-24 u-layout-wrap u-layout-wrap-1">
 					<div class="row mt-3">
 							<div class="col-md-9 col-12 mb-2">
@@ -103,15 +103,15 @@ sebelum </body>
 							</div>
 							<div class="col-md-3 col-12 mb-5">
 									<div id="map" style="z-index:1; margin-top: 8px;"></div>
-									<h1 class="u-custom-font u-text u-text-6">PT Global Rancang Selaras</h1>
-									<h1 class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Lokasi', app()->getLocale()) }}</h1>
-									<h1 class="u-custom-font u-text u-text-7">{{ $project->location }}</h1>
-									<h1 class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Skala', app()->getLocale()) }}</h1>
-									<h1 class="u-custom-font u-text u-text-7">{{ $project->scale }}</h1>
-									<h1 class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Tahun Proyek', app()->getLocale()) }}</h1>
-									<h1 class="u-custom-font u-text u-text-7"><a href="{{route('project-year',$project->year)}}">{{ $project->year }}</a></h1>
-									<h1 class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Tahun Penyelesaian', app()->getLocale()) }}</h1>
-									<h1 class="u-custom-font u-text u-text-7"><a href="{{route('project-year',$project->year)}}">{{ $project->completion_year }}</a></h1>
+									<div class="u-custom-font u-text u-text-6">PT Global Rancang Selaras</div>
+									<div class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Lokasi', app()->getLocale()) }}</div>
+									<div class="u-custom-font u-text u-text-7">{{ $project->location }}</div>
+									<div class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Skala', app()->getLocale()) }}</div>
+									<div class="u-custom-font u-text u-text-7">{{ $project->scale }}</div>
+									<div class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Tahun Proyek', app()->getLocale()) }}</div>
+									<div class="u-custom-font u-text u-text-7"><a href="{{route('project-year',$project->year)}}">{{ $project->year }}</a></div>
+									<div class="u-custom-font u-text u-text-6">{{ GoogleTranslate::trans('Tahun Penyelesaian', app()->getLocale()) }}</div>
+									<div class="u-custom-font u-text u-text-7"><a href="{{route('project-year',$project->year)}}">{{ $project->completion_year }}</a></div>
 								
 							</div>
 					</div>
