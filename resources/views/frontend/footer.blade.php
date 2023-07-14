@@ -35,38 +35,28 @@
    <footer class="u-clearfix u-custom-color-5 u-footer" id="sec-76c1">
   <div class="u-clearfix u-sheet ">
     <div class="row align-items-center mt-4 mb-4">
-        <div class="col-lg-8 col-md-12 px-0">
-              <div class="input-group">
-               <form action="{{route('subscribe.submit')}}" class="">
-               @csrf
-                 <input type="text" placeholder="Name" id="name-ef64" name="nama" class="input-subscribe" required="">
-                 <input type="email" placeholder="Email" id="email-ef64" name="email" class="input-subscribe" required="">
-                 <span class="input-group-btn">
-                   <button class="btn-subscribe" type="submit">Subscribe</button>
-                 </span>
-               </form>
-             </div>
+        <div class="col-lg-7 col-md-7 align-self-center">
+          <div class="letak-subscribe">
+            <form action="{{route('subscribe.submit')}}" class="">
+              @csrf
+               <input type="email" name="email" class="input-email" placeholder="lovely-human@example.com" required>
+               <input class="button-subscribe" type="submit"  name="subscribe">
+            </form>
+          </div>
       </div>
-      <div class="col-lg-4 col-md-12">
-        <div class="letak-social">
-        <div class="u-social-icons u-spacing-10  social-icon">
-          <a class="u-social-url" title="facebook" target="_blank" href="">
-            <span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1">
-              <img src="{{asset('frontend/images/fb.webp')}}" alt="">
-            </span>
-          </a>
-          <a class="u-social-url" title="instagram" target="_blank" href="">
-            <span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-2">
-              <img src="{{asset('frontend/images/instagram.webp')}}" alt="">
-            </span>
-          </a>
-          <a class="u-social-url" title="pinterest" target="_blank" href="">
-            <span class="u-file-icon u-icon u-social-icon u-social-pinterest u-icon-3">
-              <img src="{{asset('frontend/images/linkedin.webp')}}" alt="">
-            </span>
-          </a>
-          
-        </div></div>
+      <div class="col-lg-5 col-md-5">
+        <div class="letak-sosial">
+          <div>
+            <a class="privasi" href="">Privacy Policy</a>
+          </div>
+          <div>
+            <a href="" ><img class="icon-social" src="{{asset('frontend/images/wa.webp')}}" alt=""></a>
+            <a href="" ><img class="icon-social" src="{{asset('frontend/images/fb.webp')}}" alt=""></a>
+            <a href="" ><img class="icon-social" src="{{asset('frontend/images/instagram.webp')}}" alt=""></a>
+            <a href="" ><img class="icon-social" src="{{asset('frontend/images/linkedin.webp')}}" alt=""></a>
+          </div>
+        
+        </div>
       </div>
     </div>
   </div>
