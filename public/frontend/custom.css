@@ -338,3 +338,11 @@
     background-image: linear-gradient(180deg, #000000, #04f45000);
     opacity: 0.4;
   }
+
+
+  .garis-horizontal{
+    border-color: var(--color2);
+    border-style: hidden hidden solid hidden;
+    border-width: 0.5px;
+    width: 100%;
+  }
