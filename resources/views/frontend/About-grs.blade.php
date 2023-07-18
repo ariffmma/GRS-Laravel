@@ -17,7 +17,7 @@
           <div class="u-layout">
             <div class="u-layout-col">
               <div class="u-container-style u-layout-cell u-size-23 u-layout-cell-1">
-                <div class="u-container-layout u-container-layout-1">
+                <div class="u-container-layout u-container-layout-1 mb-3">
                   <h3 class="u-custom-font u-text u-text-1">Sekilas Perusahaan</h3>
                 </div>
               </div>

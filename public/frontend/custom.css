@@ -231,11 +231,10 @@
     text-decoration: none;
   }
   .btn-color{
-    font-size: 15px;
-    padding-bottom: 5px;
+    font-size: 13px;
+    padding-bottom: 7px;
     letter-spacing: 1px;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: 700;
     color: white !important;
     width: 57px;
     background-color: #ffffff2e
@@ -278,7 +277,7 @@
 .privasi{
   margin-right: 10px;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff !important;

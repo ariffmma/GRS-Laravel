@@ -23,46 +23,19 @@ sebelum </body>
 						<li data-u-target="#carousel-5851" data-u-slide-to="4" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
 					</ol>
 					<div class="u-carousel-inner u-gallery-inner" role="listbox">
-						<div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1">
-							<div class="u-back-slide" data-image-width="2000" data-image-height="1250">
-								<img class="u-back-image u-expanded" src="{{asset('frontend/images/6.jpg')}}">
+				
+             
+				
+						<?php $i = 1; $j = 1; $k = 1;?>
+						@foreach($projects as $projecti)
+						<?php if ($i==1) {$set_ = 'u-active'; } else {$set_ = ''; } ?>
+							<div class="<?php echo $set_; ?> u-carousel-item u-effect-fade u-gallery-item u-carousel-item-{{ $i++ }}">
+								<div class="u-back-slide" data-image-width="2000" data-image-height="1250">
+									<img class="u-back-image u-expanded" src="{{asset('images/'.$projecti->thumb)}}">
+								</div>
+								<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-{{ $j++ }}"></div>
 							</div>
-							<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-1"></div>
-						</div>
-						<div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
-							<div class="u-back-slide" data-image-width="2000" data-image-height="1145">
-								<img class="u-back-image u-expanded" src="{{asset('frontend/images/07HEALINGGARDEN.jpg')}}">
-							</div>
-							<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-2"></div>
-						</div>
-						<div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="2836" data-image-height="1875">
-							<div class="u-back-slide" data-image-width="2000" data-image-height="1427">
-								<img class="u-back-image u-expanded" src="{{asset('frontend/images/06WAITINGCLINICS.jpg')}}">
-							</div>
-							<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-3"></div>
-						</div>
-						<div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="1280" data-image-height="853">
-							<div class="u-back-slide" data-image-width="2000" data-image-height="1250">
-								<img class="u-back-image u-expanded" src="{{asset('frontend/images/003.jpg')}}">
-							</div>
-							<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-4"></div>
-							<style data-mode="XL"></style>
-							<style data-mode="LG"></style>
-							<style data-mode="MD" data-visited="true"></style>
-							<style data-mode="SM" data-visited="true"></style>
-							<style data-mode="XS" data-visited="true"></style>
-						</div>
-						<div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-5" data-image-width="2000" data-image-height="1250">
-							<div class="u-back-slide">
-								<img class="u-back-image u-expanded" src="{{asset('frontend/images/08WARD.jpg')}}">
-							</div>
-							<div class="u-align-center-md u-align-center-sm u-align-center-xs u-over-slide u-shading u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xs u-over-slide-5"></div>
-							<style data-mode="XL"></style>
-							<style data-mode="LG"></style>
-							<style data-mode="MD" data-visited="true"></style>
-							<style data-mode="SM" data-visited="true"></style>
-							<style data-mode="XS" data-visited="true"></style>
-						</div>
+						@endforeach
 					</div>
 					<a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-custom-color-3 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-5851" role="button" data-u-slide="prev">
 						<span aria-hidden="true">
