@@ -50,10 +50,12 @@
             @foreach($projects as $project)
             <div class="u-align-left u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-image u-image-default u-image-1" alt="{{ $project->title }}" data-image-width="1612" data-image-height="1029" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
-                <h2 class="u-custom-font u-text u-text-default u-text-2">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</h2>
-                <p class="u-custom-font u-text u-text-default u-text-3"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
-                <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
+                <a href="" style="color: #111111; text-decoration: none;">
+                  <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-image u-image-default u-image-1" alt="{{ $project->title }}" data-image-width="1612" data-image-height="1029" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
+                  <h2 class="u-custom-font u-text u-text-default u-text-2">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</h2>
+                  <p class="u-custom-font u-text u-text-default u-text-3"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
+                  <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
+                </a>
               </div>
             </div>
             @endforeach

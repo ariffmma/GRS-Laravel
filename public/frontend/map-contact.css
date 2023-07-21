@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .e-marker {
+    transform-origin: bottom center;
+    cursor: pointer;
+  }
+  .e-marker__marker {
+    fill: #fff;
+  }
+  .e-marker__icon {
+    fill: #fff;
+  }
+  .e-marker__image {
+    transform: scale(0);
+    transform-origin: 50% 50%;
+  }
+  .e-marker__circle {
+    display: none;
+  }
+  .e-marker__text {
+    font-size: 12px;
+    font-family: brandon-grotesque, sans-serif;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    fill: #fff;
+    transform-origin: 50% 50%;
+    alignment-baseline: middle;
+    text-anchor: middle;
+  }

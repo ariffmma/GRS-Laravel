@@ -69,6 +69,9 @@ class FrontController extends Controller
 
     public function newsPage()
     {
-        return view('frontend.News');
+        $projects= project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',0)->where('projects.selected',0)->get();
+        $projectHighlight= project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',1)->get();
+        $projectSelect= project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',0)->where('projects.selected',1)->get();
+        return view('frontend.News',compact('projects','projectHighlight','projectSelect'));
     }
 }

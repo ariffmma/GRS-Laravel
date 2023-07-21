@@ -81,7 +81,16 @@
             window.location.href = url + "?lang="+"eng";
           });
       });
-    
+      function cateChange(evt)
+      {
+        if(evt.target.value === 'enquiry'){
+          document.getElementById('enquiry').style.display = 'flex';
+        }else if(evt.target.value === 'press'){
+          document.getElementById('enquiry').style.display = 'flex';
+        }else if(evt.target.value === 'jobs'){
+          document.getElementById('enquiry').style.display = 'none';
+        }
+      }
     </script>
 
 
