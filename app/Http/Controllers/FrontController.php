@@ -28,7 +28,9 @@ class FrontController extends Controller
 
     public function contactPage()
     {
-        return view('frontend.Contact');
+        // $projects = project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',0)->where('projects.selected',0)->take(1)->get();
+        $projects = project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',0)->where('projects.selected',0)->get();
+        return view('frontend.Contact',compact('projects'));
     }
 
     public function projectPage()

@@ -42,7 +42,8 @@ const iconJungle = `<g class="e-marker__icon e-marker__icon--jungle"><path d="M5
 // 💻 DATA
 const geojson = {
   "type": "FeatureCollection",
-  "features": [{
+  "features": [
+    {
     "type": "Feature",
     "properties": {
       "title": "haha",
@@ -55,7 +56,8 @@ const geojson = {
       "coordinates": [110.81391953399103, -7.559208516641184
       ]
     }
-  }, {
+  }, 
+  {
     "type": "Feature",
     "properties": {
       "title": "San Juan Del Sur",

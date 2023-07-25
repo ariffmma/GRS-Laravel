@@ -24,7 +24,8 @@
     display: none;
   }
   .e-marker__text {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 700;
     font-family: brandon-grotesque, sans-serif;
     text-align: center;
     opacity: 0;
