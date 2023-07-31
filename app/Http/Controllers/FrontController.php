@@ -32,6 +32,13 @@ class FrontController extends Controller
         $projects = project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->where('projects.highlight',0)->where('projects.selected',0)->get();
         return view('frontend.Contact',compact('projects'));
     }
+    
+    public function listProject()
+    {
+        $categories = categorie::get();
+        $projects = project::join('post_categories','projects.id','post_id')->join('categories','categories.categori_id','post_categories.categori_id')->orderBy('projects.created_at','ASC')->get();
+        return view('frontend.List-Detail',compact('projects','categories'));
+    }
 
     public function projectPage()
     {

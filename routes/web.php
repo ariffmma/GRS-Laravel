@@ -31,6 +31,8 @@ Route::post('/subscribe/submit',[App\Http\Controllers\subscribeController::class
 Route::post('/contact/business',[App\Http\Controllers\contactController::class,'store'])->name('business.submit');
 Route::post('/contact/firm',[App\Http\Controllers\contactController::class,'storeFirm'])->name('firm.submit');
 
+// temp
+Route::get('/list-project', [App\Http\Controllers\FrontController::class, 'listProject'])->name('list-project');
 //route for admin
 Route::group(['middleware' => ['auth','roles'], 'roles' => ['admin']], function(){
 Route::get('/dashboard', [App\Http\Controllers\dashboardController::class, 'index'])->name('dashboard');

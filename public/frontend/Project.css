@@ -18,7 +18,7 @@
 }
 
 .u-section-2 .u-layout-cell-1 {
-  min-height: 1061px;
+  min-height: 0px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -364,7 +364,7 @@
   }
 
   .u-section-2 .u-layout-cell-1 {
-    min-height: 875px;
+    min-height: 0px;
   }
 
   .u-section-2 .u-text-1 {
