@@ -41,21 +41,25 @@
         </span>
         <span class="sr-only">Next</span>
       </a>
-      
     </section>
+
+
+
+
     <section class="u-clearfix u-section-2" id="sec-f737">
       <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-        <div class="u-align-left u-custom-font u-text u-text-1"><a href="{{ route('project') }}">Projects</a></div>
+        <div class="headline"><a href="{{ route('project') }}">Projects</a></div>
         <div class="u-expanded-width u-layout-horizontal u-list u-list-1" style="margin-top: 10px;">
           <div class="u-repeater u-repeater-1">
             @foreach($projects as $project)
             <div class="u-align-left u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <a href="" style="color: #111111; text-decoration: none;">
-                  <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-image u-image-default u-image-1" alt="{{ $project->title }}" data-image-width="1612" data-image-height="1029" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
-                  <h2 class="u-custom-font u-text u-text-default u-text-2">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</h2>
-                  <p class="u-custom-font u-text u-text-default u-text-3"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
-                  <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
+                <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" style="color: #111111; text-decoration: none;">
+                  <img class="img-projects" alt="{{ $project->title }}" data-image-width="1612" data-image-height="1029" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
+                  <div class="title-projects">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</div>
+                  <div class="year-projects">{{ GoogleTranslate::trans($project->completion_year, app()->getLocale()) }}</div>
+                  <div class="desc-projects"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</div>
+                  <div class="more-projects"><a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">lanjutkan</a></div>
                 </a>
               </div>
             </div>
@@ -88,7 +92,7 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-3"  style="margin-top: 30px;margin-bottom: 10px;" id="sec-7996">
+    <section class="u-clearfix u-section-3"  style="margin-top: 30px;margin-bottom: 30px;" id="sec-7996">
       <div class="u-clearfix u-sheet u-sheet-1">
        <div class="garis-horizontal">
       </div>
@@ -98,163 +102,77 @@
         <div class="u-clearfix u-expanded-width u-gutter-22 u-layout-wrap u-layout-wrap-1">
           <div class="row">
             @foreach($projectHighlight as $project)
-            <div class="col-md-6 col-12">
-              <h1 class="u-custom-font u-text u-text-default u-text-1"><a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</a></h1>
-              <p class="u-custom-font u-text u-text-2"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
-              <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
+            <div class="col-md-5 col-12">
+              <img class="img-highlight-1" alt="{{ $project->title }}" src="{{asset('images/'.$project->thumb)}}" data-image-width="1024" data-image-height="742" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
+              <div class="footnote">FASAD DEPAN</div>
             </div>
-            <div class="col-md-6 col-12">
-              <img class="u-expanded-width u-image u-image-1" alt="{{ $project->title }}" src="{{asset('images/'.$project->thumb)}}" data-image-width="1024" data-image-height="742" data-href="http://192.168.18.107:8000/rumah-sakit=rs-muhammadiyah-gresik">
+            <div class="col-md-3 col-12">
+              <img class="img-highlight-2" alt="{{ $project->title }}" src="{{asset('images/'.$project->thumb)}}" data-image-width="1024" data-image-height="742" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
+              <div class="footnote">INTERIOR RAWAT INAP</div>
             </div>
+            <div class="col-md-4 col-12">
+              <div class="title-highlight"><a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</a></div>
+              <div class="desc-highlight"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</div>
+              <div class="more-highlight"><a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">lanjutkan</a></div>
+            </div>
+          
             @endforeach
           </div>
     
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-3" style="margin-top: 30px;margin-bottom: 10px;" id="sec-7996">
+    <section class="u-clearfix u-section-3" style="margin-top: 30px;margin-bottom: 30px;" id="sec-7996">
       <div class="u-clearfix u-sheet u-sheet-1">
        <div class="garis-horizontal">
       </div>
     </section>
-     <!-- selected work -->
-     <section class="u-clearfix u-hidden-lg u-hidden-md u-hidden-sm u-hidden-xs u-section-4" style="margin-bottom: 30px;" id="sec-e893">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-layout-cell u-size-12 u-layout-cell-1">
-                <div class="u-container-layout u-container-layout-1">
-                  <div class="u-align-left u-custom-font u-text u-text-1">Se​le​cted <br>Works </div>
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-size-48 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-expanded-width u-layout-horizontal u-list u-list-1">
-                    <div class="u-repeater u-repeater-1">
-                      @foreach($projectSelect as $project)
-                      <div class="u-align-left u-container-style u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                          <img alt="{{$project->title}}" class="u-image u-image-1" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" data-image-width="1005" data-image-height="768">
-                          <p class="u-custom-font u-text u-text-default u-text-2">  {{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</p>
-                          <p class="u-custom-font u-text u-text-default u-text-3">  {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
-                          <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
-                        </div>
-                      </div>
-                      @endforeach
-                    </div>
-                    <a class="u-gallery-nav u-gallery-nav-prev u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">
-                      <span aria-hidden="true">
-                        <svg viewBox="0 0 451.847 451.847">
-                          <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-                          c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-                          c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                      </span>
-                      <span class="sr-only">
-                        <svg viewBox="0 0 451.847 451.847">
-                          <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-                          c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-                          c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                      </span>
-                    </a>
-                    <a class="u-gallery-nav u-gallery-nav-next u-grey-70 u-hidden u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-2" href="#" role="button">
-                      <span aria-hidden="true">
-                        <svg viewBox="0 0 451.846 451.847">
-                          <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                            L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                            c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                      </span>
-                      <span class="sr-only">
-                        <svg viewBox="0 0 451.846 451.847">
-                          <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                            L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                            c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                      </span>
-                    </a>
-                  </div>
-                </div>
+    <section class="u-clearfix u-section-2" style="margin-bottom: 40px;" id="sec-f737">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <div class="headline-1"><a href="{{ route('project') }}">Se​le​cted Works</a></div>
+        <div class="u-expanded-width u-layout-horizontal u-list u-list-1" style="margin-top: 10px;">
+          <div class="u-repeater u-repeater-1">
+            @foreach($projectSelect as $project)
+            <div class="u-align-left u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" style="color: #111111; text-decoration: none;">
+                  <img class="img-projects" alt="{{ $project->title }}" data-image-width="1612" data-image-height="1029" src="{{asset('images/'.$project->thumb)}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">
+                  <div class="title-projects">{{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</div>
+                  <div class="year-projects">{{ GoogleTranslate::trans($project->completion_year, app()->getLocale()) }}</div>
+                  <div class="desc-projects"> {{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</div>
+                  <div class="more-projects"><a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}">lanjutkan</a></div>
+                </a>
               </div>
             </div>
+            @endforeach
           </div>
+          <a class="u-gallery-nav u-gallery-nav-prev u-gradient u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847">
+                <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+              </svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847">
+                <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
+              </svg>
+            </span>
+          </a>
+          <a class="u-gallery-nav u-gallery-nav-next u-gradient u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-2" href="#" role="button">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847">
+                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+              </svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847">
+                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
+              </svg>
+            </span>
+          </a>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-hidden-xl u-section-5" style="margin-bottom: 30px;" id="sec-51cd">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-col">
-              <div class="u-container-style u-layout-cell u-size-12 u-layout-cell-1" style="margin-bottom: 20px;">
-                <div class="u-container-layout u-valign-top-lg u-valign-top-md u-valign-top-sm u-valign-top-xs u-container-layout-1">
-                  <div class="u-align-left u-custom-font u-text u-text-1">Se​le​cted Works</div>
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-size-48 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-expanded-width u-layout-horizontal u-list u-list-1">
-                    <div class="u-repeater u-repeater-1">
-                    @foreach($projectSelect as $project)
-                      <div class="u-align-left u-container-style u-list-item u-repeater-item">
-                        <div class="u-container-layout u-similar-container u-container-layout-3">
-                          <img class="u-image u-image-default u-image-1" alt="{{$project->title}}" data-href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" data-image-width="1005" data-image-height="768" src="{{asset('images/'.$project->thumb)}}">
-                          <p class="u-custom-font u-text u-text-default u-text-2"> {{ GoogleTranslate::trans($project->title, app()->getLocale()) }}</p>
-                          <p class="u-custom-font u-text u-text-default u-text-3">{{ GoogleTranslate::trans($project->short_description, app()->getLocale()) }}</p>
-                          <a href="{{route('project-detail', ['category' => $project->cate_slug, 'slug' => $project->slug])}}" class="u-active-none u-border-1 u-border-active-palette-2-dark-1 u-border-custom-color-3 u-border-hover-custom-color-2 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-style u-custom-font u-hover-none u-none u-text-body-color u-text-hover-custom-color-3 u-btn-1">lanjutkan</a>
-                        </div>
-                      </div>
-                    @endforeach  
-                    </div>
-                    <a class="u-gallery-nav u-gallery-nav-prev u-gradient u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-1" href="#" role="button">
-                      <span aria-hidden="true">
-                        <svg viewBox="0 0 451.847 451.847">
-                          <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-                          c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-                          c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                      </span>
-                      <span class="sr-only">
-                        <svg viewBox="0 0 451.847 451.847">
-                          <path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
-                          c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
-                          c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path>
-                        </svg>
-                      </span>
-                    </a>
-                    <a class="u-gallery-nav u-gallery-nav-next u-gradient u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-gallery-nav-2" href="#" role="button">
-                      <span aria-hidden="true">
-                        <svg viewBox="0 0 451.846 451.847">
-                          <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                            L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                            c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                      </span>
-                      <span class="sr-only">
-                        <svg viewBox="0 0 451.846 451.847">
-                          <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                          L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                          c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path>
-                        </svg>
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end selected work -->
-  
-   
-		
 		@include('frontend.footer')
-   
-   
 </body>
-
 </html>

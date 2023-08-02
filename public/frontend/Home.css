@@ -59,10 +59,9 @@
 
 
 .u-section-2 .u-repeater-1 {
-  /* min-height: 388px; */
   grid-auto-columns: calc(33.3333% - 16.6667px);
-  grid-template-columns: calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px);
-  grid-gap: 25px 25px;
+  grid-template-columns: calc(41.66666667% - 16.6667px) calc(33.3333% - 16.6667px) calc(25% - 16.6667px);
+  grid-gap: 23px 23px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -85,7 +84,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 15px;
+  font-size: 18px;
   margin: 10px 0 0;
 }
 
@@ -96,8 +95,8 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  line-height: 1.2;
-  font-size: 13px;
+  line-height: 20px;
+  font-size: 15px;
   margin: 0 0 0;
 }
 
@@ -236,7 +235,7 @@
   width: 40px;
   height: 40px;
   left: auto;
-  top: 77px;
+  top: 111px;
   right: 14px;
   background-image: linear-gradient(#f07f3b, #f07f3b);
 }
@@ -308,12 +307,12 @@
   }
 
   .u-section-2 .u-gallery-nav-1 {
-    left: 13px;
-    top: 84px;
+    left: 15px;
+    top: 113px;
   }
 
   .u-section-2 .u-gallery-nav-2 {
-    top: 82px;
+    top: 113px;
     right: 15px;
   }
 }
@@ -364,11 +363,11 @@
 
   .u-section-2 .u-gallery-nav-1 {
     left: 27px;
-    top: 140px;
+    top: 109px;
   }
 
   .u-section-2 .u-gallery-nav-2 {
-    top: 139px;
+    top: 109px;
     right: 27px;
   }
 }
@@ -473,12 +472,12 @@
 
   .u-section-2 .u-gallery-nav-1 {
     left: 9px;
-    top: 93px;
+    top: 115px;
     padding: 10px;
   }
 
   .u-section-2 .u-gallery-nav-2 {
-    top: 93px;
+    top: 115px;
     right: 11px;
     padding: 10px;
   }
@@ -565,7 +564,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  font-size: 15px;
+  font-size: 18px;
   margin: 18px 0 0;
 }
 
@@ -576,9 +575,10 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 13px;
-  line-height: 1.2;
+  font-size: 15px;
+  line-height: 20px;
   margin: 0 0 0;
+  padding-bottom: 20px;
 }
 
 .u-section-4 .u-btn-1 {
@@ -1491,5 +1491,218 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 0.875rem;
     font-weight: 900;
+  }
+}
+
+
+
+
+.headline {
+  margin-top: 40px;
+}
+.headline a {
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 32px;
+}
+
+.headline-1 a {
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 32px;
+}
+.img-projects {
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 267px;
+}
+.title-projects {
+  text-transform: uppercase;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+.year-projects {
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.desc-projects {
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  display: box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 14px;
+
+}
+.more-projects{
+  margin-top: 20px;
+}
+.more-projects a{
+  margin-top: 20px;
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 1px solid #111111;
+  padding-bottom: 3px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.title-highlight {
+  height: 60%;
+  text-align: end;
+  margin-top: -7px;
+  margin-left: -2px;
+}
+.title-highlight a {
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 32px;
+}
+.desc-highlight {
+  height: 35%;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 18px;
+  text-align: end;
+}
+.more-highlight {
+  text-align: end;
+}
+.more-highlight a {
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 1px solid #111111;
+  padding-bottom: 3px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.img-highlight-1 {
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 486px;
+}
+.img-highlight-2 {
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 267px;
+}
+.footnote{
+  margin-top: 5px;
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+  .img-highlight-1 {
+    height: 359px;
+  }
+  .img-highlight-2 {
+    height: 212px;
+  }
+  .desc-highlight {
+    height: 32%;
+  }
+}
+@media (max-width: 991px) {
+  .img-highlight-1 {
+    height: 359px;
+  }
+  .img-highlight-2 {
+    height: 148px;
+  }
+  .title-highlight{
+    height: 43%;
+  }
+  .desc-highlight {
+    height: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .img-highlight-1 {
+    height: 267px;
+  }
+  .img-highlight-2 {
+    height: 267px;
+    margin-top: 20px;
+  }
+  .title-highlight{
+    margin-top: 10px;
+    text-align: start;
+    height: 25%;
+  }
+  .desc-highlight {
+    text-align: start;
+    height: 50%;
+  }
+  .more-highlight {
+    text-align: start;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .img-highlight-1 {
+    height: 267px;
+  }
+  .img-highlight-2 {
+    height: 267px;
+    margin-top: 20px;
+  }
+  .title-highlight{
+    text-align: start;
+    height: 34%;
+  }
+  .desc-highlight {
+    height: 50%;
   }
 }
